@@ -11,6 +11,7 @@ public class C02_Preincrement_Postincrement {
         int c = b++ + a;
 
         System.out.println(+ c);
+        System.out.println(+(a+b+c));
 
 
 
