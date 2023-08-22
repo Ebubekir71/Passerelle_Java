@@ -1,4 +1,4 @@
-package ders07_If_Else;
+package ders08_If_Else;
 
 import java.util.Scanner;
 
