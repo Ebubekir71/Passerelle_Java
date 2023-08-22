@@ -10,7 +10,13 @@ public class C06_New_Try {
         System.out.println("Lütfen bir sayi girin");
         int a = scan.nextInt();
 
-        a = a>0 ? a*2 : a+10;
-        System.out.println(a);
+//        a = a>0 ? a*2 : a+10;
+//        System.out.println(a);            Ternary ifadesi kullanilarak yazilan bir koddur
+
+        if (a>0){
+            System.out.println(a*2);
+        }else{
+            System.out.println(a+12);
+        }
     }
 }
